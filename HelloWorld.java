@@ -19,6 +19,9 @@ public class HelloWorld {
     }
 
 }
+//567.456
+//567
+//decimal part 456
 
 // type casting
 // Wide
