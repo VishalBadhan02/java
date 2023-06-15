@@ -1,12 +1,16 @@
 class Students{
     String name;
-    Student(String a){
-        this.name=a;
-        System.out.println(a);
+    Students(){
+        name = "unknown";
+    }
+    Students(String name ){
+        this.name = name ;
     }
     public static void main(String args[]){
         Students student = new Students();
-        student.Student(vishal);
+        student.Students();
+        student.Students("vishal");
+
 
     }
 }
