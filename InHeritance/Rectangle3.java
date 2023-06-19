@@ -8,7 +8,7 @@ class Rectangle3{
         System.out.println("no Parameters");
     }
     Rectangle3(int a , int b){
-        System.out.println("Area of rectangle " + a*b);
+            
     }
     Rectangle3(int c){
  
