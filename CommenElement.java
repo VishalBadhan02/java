@@ -8,7 +8,7 @@ public class CommenElement {
         n = sc.nextInt();
         int[] a = new int[n];
         int[] b = new int[n];
-
+        int[] c = new int[n];
         for (int i = 0; i < n; i++) {
             System.out.println("Enter the elements of a");
             a[i] = sc.nextInt();
@@ -26,14 +26,19 @@ public class CommenElement {
                 int key1 = b[i];
 
                 if (key == key1) {
+                    int d = key;
                     fn = true;
-
+                    c[i] = key;
+                    System.out.println();
                 } else {
                     fn = false;
                 }
 
             }
-            System.out.println("Comman elements are" + a[i]);
+
+        }
+        for (int i = 0; i < c.length; i++) {
+            System.out.println(c[i]);
         }
 
     }
