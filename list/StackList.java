@@ -21,10 +21,10 @@ public class StackList {
 
         // }
         int j=0 ;
-        while(stacklist.isEmpty()) {
+        while(stacklist.isEmpty() == false) {
             System.out.println(stacklist.peek());
             stacklist.pop();
-           // j++;
+            j++;
         }
         // Stack<StackList> stacklist1 = new Stack<>();
         // StackList stacklist2 = new StackList(24);

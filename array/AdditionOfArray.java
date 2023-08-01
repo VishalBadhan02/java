@@ -1,3 +1,4 @@
+package array;
 import java.util.Scanner;
 class AdditionOfArray{
 public static void main(String args[]){
