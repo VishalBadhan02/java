@@ -29,7 +29,7 @@ public class CommenElement {
                     int d = key;
                     fn = true;
                     c[i] = key;
-                    System.out.println();
+
                 } else {
                     fn = false;
                 }
@@ -38,7 +38,7 @@ public class CommenElement {
 
         }
         for (int i = 0; i < c.length; i++) {
-            System.out.println(c[i]);
+            System.out.println("Comman elements are " + c[i]);
         }
 
     }
