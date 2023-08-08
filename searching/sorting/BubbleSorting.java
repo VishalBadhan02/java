@@ -14,17 +14,13 @@ public class BubbleSorting {
             a[i] = sc.nextInt();
         }
         for (int i = 0; i < a.length; i++) {
-            int temp = a[i];
-            System.out.println("Value of a[i]" + temp);
-            for (int j = 1; j < a.length; j++) {
-                int temp1 = a[j];
-                System.out.println("Value of a[j]" + temp1);
-                if (a[j - 1] > temp1) {
+            for (int j = 1; j < (a.length - i); j++) {
+                if (a[j - 1] > a[j]) {
+                    int temp1 = a[j];
                     a[j] = a[j - 1];
                     a[j - 1] = temp1;
 
                 }
-                System.out.println(a[j]);
             }
         }
         for (int i = 0; i < a.length; i++) {
