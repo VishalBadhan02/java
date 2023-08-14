@@ -1,16 +1,18 @@
-class Students{
+class Students {
     String name;
-    Students(){
+
+    Students() {
         name = "unknown";
     }
-    Students(String name ){
-        this.name = name ;
+
+    Students(String name) {
+        this.name = name;
     }
-    public static void main(String args[]){
+
+    public static void main(String args[]) {
         Students student = new Students();
-        student.Students();
-        student.Students("vishal");
-
+        Students student1 = new Students("vishal");
 
     }
+
 }

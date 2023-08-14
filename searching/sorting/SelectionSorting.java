@@ -2,7 +2,9 @@ package searching.sorting;
 
 import java.util.Scanner;
 
-//inner loop compare smallest 
+//The algorithm repeatedly selects the smallest (or largest) element from the unsorted portion 
+//of the list and swaps it with the first element of the unsorted part. This process is repeated
+//for the remaining unsorted portion until the entire list is sorted. 
 
 public class SelectionSorting {
     public static void main(String args[]) {
@@ -17,14 +19,9 @@ public class SelectionSorting {
         }
         for (int i = 0; i < a.length; i++) {
             int index = i;
-            System.out.println("Index" + index);
             for (int j = i + 1; j < a.length; j++) {
                 if (a[j] < a[index]) {
                     index = j;
-
-                    System.out.println("a[index] =" + a[i]);
-                    System.out.println("index in loop =" + a[index]);
-                    System.out.println("a[j] =" + a[j]);
 
                 }
             }
@@ -34,7 +31,7 @@ public class SelectionSorting {
 
         }
         for (int i = 0; i < a.length; i++) {
-            System.out.println(a[i]);
+            System.out.println("Sorted array is " + a[i]);
         }
     }
 
