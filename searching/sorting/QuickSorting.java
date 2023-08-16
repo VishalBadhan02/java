@@ -6,20 +6,18 @@ public class QuickSorting {
             int p = end;
             pivot(a, start, p);
             pivot(a, start + 1, p);
-
+            sorting(a, start, p);
         }
 
     }
 
     public void sorting(int a[], int start, int end) {
-        int i = start;
-        int j = end;
-        int l = 0;
-        int left[] = new int[l];
-        for (i = 0; i < a.length; i++) {
-            if (a[i] < end) {
-                left[l] = a[i];
-                l++;
+        int pi = a[end];
+        int i = start - 1;
+        for (int j = start; j < a.length; j++) {
+            if (a[j] < pi) {
+                i++;
+
             }
             if (a[i] > end) {
                 a[i] = end;
