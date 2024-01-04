@@ -16,12 +16,13 @@ public class HelloWorld {
         System.out.println("in Hello World Function a + b  " + (a + b));
         System.out.println("a <b && b > a " + (a < b && b > a));
         System.out.println("in a < b " + (a < b));
+
     }
 
 }
-//567.456
-//567
-//decimal part 456
+// 567.456
+// 567
+// decimal part 456
 
 // type casting
 // Wide

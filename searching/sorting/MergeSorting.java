@@ -58,15 +58,6 @@ public class MergeSorting {
     }
 
     public static void main(String args[]) {
-        // int n;
-        // Scanner sc = new Scanner(System.in);
-        // System.out.println("Enter the length");
-        // n = sc.nextInt();
-        // int a[] = new int[n];
-        // for (int i = 0; i < n; i++) {
-        // System.out.println("Enter the elements");
-        // a[i] = sc.nextInt();
-        // }
 
         int a[] = { 12, 11, 13, 5, 6 };
         int h = a.length - 1;

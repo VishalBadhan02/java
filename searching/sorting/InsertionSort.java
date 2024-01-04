@@ -31,24 +31,3 @@ public class InsertionSort {
     }
 
 }
-// for (int i = 0; i < a.length; i++) {
-// System.out.println("\nPass " + i + " firstvariable " + firstvariable + " a[i]
-// " + a[i]);
-// if (a[i] < firstvariable) {
-// int temp = a[i];
-// System.out.println("temp value " + temp);
-// for (int j = i; j > 0; j--) {
-// a[j] = a[j - 1];
-// }
-// a[0] = temp;
-// firstvariable = a[i];
-// for (int k = 0; k < a.length; k++) {
-// System.out.print(" " + a[k]);
-// }
-
-// }
-
-// }
-// for (int i = 0; i < a.length; i++) {
-// System.out.println("\nFinal Sorted array is " + a[i]);
-// }
